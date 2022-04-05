@@ -1,6 +1,12 @@
 {
+  "scripts": {
+    "dev":"yarn nodemon ./src/index.js"
+  },
   "dependencies": {
     "apollo-server": "^3.6.7",
     "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
